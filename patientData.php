@@ -1,6 +1,6 @@
 <?php
 
-require_once '/Users/cfeochari/vendor/fzaninotto/faker/src/autoload.php';
+require_once 'autoload.php';
 
 $faker = Faker\Factory::create();
 $patientInfo = [];
