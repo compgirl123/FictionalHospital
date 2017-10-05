@@ -1,6 +1,6 @@
 <?php
 
-require_once 'autoload.php';
+require_once '/Users/cfeochari/vendor/fzaninotto/faker/src/autoload.php';
 
 $faker = Faker\Factory::create();
 $patientInfo = [];
@@ -30,7 +30,7 @@ function ptdataGenerator(){
                 $fName = $faker->firstNameFemale;
                 $gender = 'F';
             }
-
+            
             $lName = $faker->lastName;
             $medicareId = rand(99999999999,1000000000000);
             $numbers = rand(513999999, 515000000);
