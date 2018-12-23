@@ -62,21 +62,6 @@ $result = $conn->query($sql);
 }*/
 $conn->close();
 
-// Connection to Concordia's Server
-
-/*$servername = "uvc353_2.encs.concordia.ca";
-$username = "uvc353_2";
-$password = "353islit";
-$dbname = "uvc353_2";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password,$dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connected successfully";*/
 
 
 ?>
